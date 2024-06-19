@@ -35,6 +35,10 @@ body {
   text-decoration: none;
   color: white;
 }
+.navi a.active{
+ 
+
+}
 
 /* ----------------------------------Hover Effect--------------------------------------------- */
 
@@ -553,10 +557,10 @@ font-weight: 500;
 .end_container .address .logo{
   height: 50px;
   width: 50px;
-  border: 1px solid;
+  /* border: 1px solid; */
 }
 .end_container .address i{
-  height: 25px;
+  font-size: 30px;
   color: red;
 }
 .end_container .form{
