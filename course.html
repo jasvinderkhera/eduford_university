@@ -4,19 +4,38 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Eduford</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/brands.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  />
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
   </head>
   <body>
     <div class="course_container">
       <div class="bg_box">
         <div class="navi">
           <a href="index.html"><img src="./images/logo.png" alt="" /></a>
-          <div class="right">
-            <a href="index.html" class="underline-effect active">HOME</a>
+          <div class="right ">
+            <a href="index.html" class="underline-effect">HOME</a>
             <a href="about.html" class="underline-effect">ABOUT</a>
             <a href="course.html" class="underline-effect">COURSE</a>
             <a href="blog.html" class="underline-effect">BLOG</a>
             <a href="contact.html" class="underline-effect">CONTACT</a>
+          </div>
+          <div class="bars"><i class="fa-solid fa-bars" style="color: white; font-size: 15px;"></i></div>
+          <div class="mobile_nav p-3">
+            <a href="index.html" class="mb-2">HOME</a>
+            <a href="about.html" class="mb-2">ABOUT</a>
+            <a href="course.html" class="mb-2">COURSE</a>
+            <a href="blog.html" class="mb-2">BLOG</a>
+            <a href="contact.html" class="mb-2">CONTACT</a>
           </div>
         </div>
         <h1 class="course_heading">Our Courses</h1>
@@ -33,7 +52,7 @@
           today's most pressing local, national and global issues.
         </p>
         <div class="program_boxes">
-          <div class="box">
+          <div class="box container">
             <h2>Undergraduate Programs</h2>
             <p>
               For decades, Eduford College has improved the health of our
@@ -44,7 +63,7 @@
               technology-rich Center for Clinical Education.
             </p>
           </div>
-          <div class="box">
+          <div class="box container">
             <h2>Graduate Programs</h2>
             <p>
               Building on our strong roots in leadership, health care and
@@ -55,9 +74,9 @@
               Licensed Professional Counselor
             </p>
           </div>
-          <div class="box">
+          <div class="box container">
             <h2>Post Graduation</h2>
-            <p>
+            <p class="container">
               The Eduford, as one of the largest nursing schools in Wisconsin,
               offers a wide array of fully accredited nursing programs,
               guaranteed clinical placements and a technology-rich Center for
@@ -81,7 +100,7 @@
         </p>
         <div class="program_boxes3">
           <div class="box_with_img">
-            <img src="./images/programs1.jpg" alt="" />
+            <img src="./images/programs1.jpg" alt="" class="img-fluid">
             <h2>Undergraduate Programs</h2>
             <p>
               For decades, Eduford College has improved the health of our
@@ -93,7 +112,7 @@
             </p>
           </div>
           <div class="box_with_img">
-            <img src="./images/programs2.jpg" alt="" />
+            <img src="./images/programs2.jpg" alt="" class="img-fluid">
             <h2>Graduate Programs</h2>
             <p>
               Building on our strong roots in leadership, health care and
@@ -105,7 +124,7 @@
             </p>
           </div>
           <div class="box_with_img">
-            <img src="./images/programs3.jpg" alt="" />
+            <img src="./images/programs3.jpg" alt="" class="img-fluid">
             <h2>Post Graduation</h2>
             <p>
               The Eduford, as one of the largest nursing schools in Wisconsin,
@@ -127,11 +146,12 @@
       <footer>
         <div class="end">
           <h2 class="main_heading">About Us</h2>
-          <p class="main_para">
+          <p class="main_para container">
             We're a leading research university with a heart. Founded in the decade that the U.S. Constitution was signed, we're the nation's oldest Catholic and Jesuit university. We're a community of people who bridge our disparate experiences and identities. Meet the people and places that make Eduford home.
           </p>
           <p class="link">Made by <a href="https://www.linkedin.com/in/jasskhera/" target="_blank">Jasvinder Khera</a></p>
         </div>
       </footer>
+      <script src="index.js"></script>
   </body>
 </html>
